@@ -1,0 +1,6 @@
+package com.bitlogic.creditscore.app.mapping;
+
+public class InterestCalculation {
+	private Long amount;
+	private Integer month;
+}

@@ -1,0 +1,5 @@
+package com.bitlogic.creditscore.app.mapping;
+
+public class InterestCalculation {
+
+}

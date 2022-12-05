@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Credit_Score_API&apos;" deleteContents="false" description="Delete resource &apos;Credit_Score_API&apos;" element1="/Credit_Score_API" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1669822450458"/>&#x0A;<refactoring comment="Delete resource &apos;Credit_Score_API&apos;" deleteContents="false" description="Delete resource &apos;Credit_Score_API&apos;" element1="/Credit_Score_API" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1669823219659"/>
+</session>

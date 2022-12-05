@@ -1,0 +1,33 @@
+package com.bitlogic.creditscore.app.controller;
+
+import java.util.List;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.bitlogic.creditscore.app.mapping.InterestCalculation;
+
+@RestController
+public class CreditScoreController {
+	
+	@PostMapping("/creditscore/{panNO}")
+	public ResponseEntity<Integer> getCreditScore(@PathVariable String panNO){
+		int min = 300;  
+		int max = 900;  
+		//Generate random double value from 200 to 400   
+		//System.out.println("Random value of type double between "+min+" to "+max+ ":");  
+		double a = Math.random()*(max-min+1)+min;   
+		System.out.println(a);  
+		int aa=(int)a;
+		return new ResponseEntity<>(aa, HttpStatus.OK);
+	}
+	@PostMapping("/getAmount")
+	public ResponseEntity<String> getAmount(@RequestBody InterestCalculation etc){
+		
+		return new ResponseEntity<>(null, HttpStatus.OK);
+	}
+}
